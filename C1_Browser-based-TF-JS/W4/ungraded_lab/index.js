@@ -66,7 +66,7 @@ async function predict() {
       return predictions.as1D().argMax();
     });
     const classId = (await predictedClass.data())[0];
-    var predictionText = "";
+    var predictionText = "";Y
     switch(classId){
 		case 0:
 			predictionText = "I see Rock";
